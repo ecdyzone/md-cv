@@ -2,6 +2,15 @@
 
 A jekyll-based markdown CV, which currently looks something like [this](http://blm.io/cv/), see this [blog post](http://blm.io/blog/markdown-academic-cv/) for details. Forked from the (great) markdown CV of [elipapa](https://github.com/elipapa/markdown-cv).
 
+### Dependencies
+
+```bash
+pacman -Syu --needed ruby base-devel
+gem install bundler jekyll
+```
+
+
+
 ### How to use
 
 To build, clone the repo and run jekyll:
@@ -9,6 +18,7 @@ To build, clone the repo and run jekyll:
 ```bash
 git clone git://github.com/blmoore/md-cv
 cd md-cv/
+bundle install
 jekyll serve
 ```
 (You may need to [install jekyll](https://jekyllrb.com/docs/installation/).)
