@@ -36,6 +36,12 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+	color: #000000ad;
+	font-style: italic;
+	text-align: justify;
+	padding-left: 1%;
+	padding-top: 0.2%;
+	padding-bottom: 0.1%;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -67,6 +73,7 @@ p {
 	/* margin-bottom: 0.2em; */
 	margin-right: 0;
 	width: 70%;
+	text-align: justify;
 }
 
 code {
@@ -173,10 +180,10 @@ a:hover {
 }
 
 #webaddress {
+	color: #000000ad;
  	margin-top: 0em;
 	position: relative;
 	left: 28%;
-	color: #ccc;
 	font-family: Menlo,monospace,sans-serif;
 	font-size: 80%;
 }
