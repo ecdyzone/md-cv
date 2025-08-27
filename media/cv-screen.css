@@ -94,6 +94,11 @@ ul {
   -moz-columns: 3;
 }
 
+ul.four-cols {
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
+}
 
 li {
 	/* empty */
@@ -171,7 +176,7 @@ a:hover {
 #webaddress {
 	margin-top: 0em;
 	position: relative;
-  margin-left: 25%;
+    margin-left: 25%;
 	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
 	font-size: 80%;
